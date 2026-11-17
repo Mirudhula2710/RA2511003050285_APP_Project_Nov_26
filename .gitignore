@@ -1,0 +1,35 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+venv/
+.venv/
+node_modules/
+dist/
+.idea/
+.vscode/
+
+client_log.txt
+client_err.txt
+server_log.txt
+server_err.txt
+ml_error.txt
+
+# Local database files
+instance/*.db
+instance/*.db-shm
+instance/*.db-wal
+
+# Logs
+*.log
+client_log.txt
+client_err.txt
+server_log.txt
+server_err.txt
+ml_error.txt
+
+# Local generated files
+__pycache__/
+*.pyc
